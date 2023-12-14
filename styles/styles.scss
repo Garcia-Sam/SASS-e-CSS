@@ -1,3 +1,17 @@
+// Variaveis
+    // Cores
+    $corPrimaria: #0C0421;
+    $corSecundaria: #4E75FF;
+    $corTercearia: #85A0FF;
+    $corQuaternaria: #E8F5C8;
+    $corDefalt: #CAD4FA;
+    $gradientPrimario: linear-gradient(180deg, #e8f5c8 0%, #FFFFFF 96.87%);
+    $gradientSecundario: linear-gradient(180deg, #ffffffb3 0%, #cad4fa4d 100%);
+
+    // Fontes
+    $fontTextos: 'Montsserrat', sans-serif;
+    $fontTitulos: 'Krona One', sans-serif;
+
 body {
     margin: 0;
     padding: 0;
@@ -6,7 +20,7 @@ body {
 
 header {
     padding: 2rem;
-    background: linear-gradient(180deg, #e8f5c8 0%, #FFFFFF 96.87%);
+    background: $gradientPrimario;
    
     nav {
         gap: 1.6rem;
@@ -30,9 +44,9 @@ header {
             a {
                 font-size: 22px;
                 font-weight: 400;
-                color: #0C0421;
+                color: $corPrimaria;
                 text-decoration: none;
-                font-family: "Montserrat", sans-serif;
+                font-family: $fontTextos;
             }
         }
     }   
