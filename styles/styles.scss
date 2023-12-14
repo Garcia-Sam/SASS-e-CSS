@@ -1,5 +1,6 @@
 // Variaveis
     // Cores
+    $branco: #FFFFFF;
     $corPrimaria: #0C0421;
     $corSecundaria: #4E75FF;
     $corTercearia: #85A0FF;
@@ -49,6 +50,47 @@ header {
                 font-family: $fontTextos;
             }
         }
-    }   
+    }
+
+    #home {
+        width: 80%;
+        display: flex;
+        margin: 0 auto;
+        max-width: 1040px;
+        align-items: center;
+        justify-content: space-between;
+
+        .textos-home {
+            max-width: 464px;
+        }
+
+        .img-home {
+            max-width: 474px;
+            img {
+                width: 100%;
+            }
+        }
+
+        h1 {
+            font-size: 42px;
+            color: $corPrimaria;
+            margin-bottom: 2rem;
+            font-family: $fontTitulos;
+            span{
+                color: $corSecundaria;
+            }
+        }
+        .btn-main {
+            border: none;
+            width: 300px;
+            padding: 1.5rem;
+            color: $branco;
+            font-size: 22px;
+            font-weight: 600;
+            border-radius: 40px;
+            font-family: $fontTextos;
+            background-color: $corSecundaria;
+        }
+    }       
 }
 
