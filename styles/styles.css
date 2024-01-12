@@ -26,10 +26,10 @@ header nav ul li {
   list-style-type: none;
 }
 header nav ul a {
-  font-size: 22px;
   font-weight: 400;
   text-decoration: none;
   color: #0C0421;
+  font-size: 1rem;
   font-family: "Montserrat", sans-serif;
 }
 header #home {
