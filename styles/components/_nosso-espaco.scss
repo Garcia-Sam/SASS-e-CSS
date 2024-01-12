@@ -1,5 +1,26 @@
 @use '../abstract/mixins';
+@use '../abstract/variaveis';
 
 #nosso-espaco {
-    @include mixins.margem-central(80%)
+    @include mixins.margem-central (80%)
+}
+
+.detalhes {
+   @include mixins.flex-box
+}
+.reverse-row {
+    flex-direction: row-reverse;
+}
+
+.espaco-textos {
+    width: 50%;
+    padding: 5em;
+}
+
+.titulo {
+    @include mixins.ff-fs-color (variaveis.$fontTitulos, 2rem, variaveis.$corSecundaria)
+}
+
+.infos {
+    @include mixins.ff-fs-color (variaveis.$fontTextos, 1.1rem, variaveis.$corPrimaria)
 }
