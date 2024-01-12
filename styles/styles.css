@@ -33,12 +33,12 @@ header nav ul a {
   font-family: "Montserrat", sans-serif;
 }
 header #home {
-  width: 80%;
   display: flex;
-  margin: 0 auto;
   max-width: 1040px;
   align-items: center;
   justify-content: space-between;
+  width: 80%;
+  margin: 0 auto;
 }
 header #home .textos-home {
   max-width: 464px;
