@@ -1,17 +1,4 @@
-// Variaveis
-    // Cores
-    $branco: #FFFFFF;
-    $corPrimaria: #0C0421;
-    $corSecundaria: #4E75FF;
-    $corTercearia: #85A0FF;
-    $corQuaternaria: #E8F5C8;
-    $corDefalt: #CAD4FA;
-    $gradientPrimario: linear-gradient(180deg, #e8f5c8 0%, #FFFFFF 96.87%);
-    $gradientSecundario: linear-gradient(180deg, #ffffffb3 0%, #cad4fa4d 100%);
-
-    // Fontes
-    $fontTextos: 'Montserrat', sans-serif;
-    $fontTitulos: 'Krona One', sans-serif;
+@use './abstract/variaveis';
 
 body {
     margin: 0;
@@ -21,7 +8,7 @@ body {
 
 header {
     padding: 2rem;
-    background: $gradientPrimario;
+    background: variaveis.$gradientPrimario;
    
     nav {
         gap: 1.6rem;
@@ -45,9 +32,9 @@ header {
             a {
                 font-size: 22px;
                 font-weight: 400;
-                color: $corPrimaria;
                 text-decoration: none;
-                font-family: $fontTextos;
+                color: variaveis.$corPrimaria;
+                font-family: variaveis.$fontTextos;
             }
         }
     }
@@ -73,23 +60,23 @@ header {
 
         h1 {
             font-size: 42px;
-            color: $corPrimaria;
             margin-bottom: 2rem;
-            font-family: $fontTitulos;
+            color: variaveis.$corPrimaria;
+            font-family: variaveis.$fontTitulos;
             span{
-                color: $corSecundaria;
+                color: variaveis.$corSecundaria;
             }
         }
         .btn-main {
             border: none;
             width: 300px;
-            color: $branco;
             padding: 1.5rem;
             font-size: 22px;
             font-weight: 600;
             border-radius: 40px;
-            font-family: $fontTextos;
-            background-color: $corSecundaria;
+            color: variaveis.$branco;
+            font-family: variaveis.$fontTextos;
+            background-color: variaveis.$corSecundaria;
         }
     }       
 }
