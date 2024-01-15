@@ -70,6 +70,34 @@ header #home .btn-main {
   background-color: #4E75FF;
 }
 
+#servico {
+  background: linear-gradient(180deg, #e8f5c8 0%, #FFFFFF 96.87%);
+}
+#servico .cards {
+  gap: 1.5rem;
+  display: flex;
+  padding: 5rem 0;
+  width: 80%;
+  margin: 0 auto;
+}
+#servico .card {
+  text-align: center;
+  border-radius: 3rem;
+  padding: 1rem 1.5rem;
+  border: 1px solid #FFFFFF;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.7019607843) 0%, rgba(202, 212, 250, 0.3019607843) 100%);
+}
+#servico .card-titulo {
+  color: #0C0421;
+  font-size: 1.6rem;
+  font-family: "Krona One", sans-serif;
+}
+#servico .card-texto {
+  color: #0C0421;
+  font-size: 1.2rem;
+  font-family: "Montserrat", sans-serif;
+}
+
 #nosso-espaco {
   width: 80%;
   margin: 0 auto;
