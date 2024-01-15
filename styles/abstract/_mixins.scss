@@ -3,11 +3,6 @@
     margin: 0 auto;
 }
 
-@mixin flex-box {
-    display: flex;
-    align-items: center;
-}
-
 @mixin ff-fs-color ($f-family, $f-size, $f-color){
     color: $f-color;
     font-size: $f-size;

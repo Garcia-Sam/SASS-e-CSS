@@ -6,6 +6,7 @@
     .detalhes {
         gap: 2rem;
         width: 100%;
+        padding: 2rem 0;
         align-items: center;
         display: inline-flex;
         justify-content: space-around;
@@ -13,11 +14,25 @@
         .imgs-espaco {
             max-width: 500px;
         }
+
         .espaco-textos {
             @extend .imgs-espaco;
+            .titulo {
+                @include mixins.ff-fs-color(variaveis.$fontTitulos, 1.8rem, variaveis.$corSecundaria);
+                font-weight: 500;
+            }
+
+            .infos {
+                @include mixins.ff-fs-color(variaveis.$fontTextos, 1.2rem, variaveis.$corPrimaria);
+
+            }
+
             .separador {
                 width: 100%;
             }    
         }
+        &:nth-child(2) {
+            flex-direction: row-reverse;
+        }    
     }
 }

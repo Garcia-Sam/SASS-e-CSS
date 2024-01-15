@@ -77,6 +77,7 @@ header #home .btn-main {
 #nosso-espaco .detalhes {
   gap: 2rem;
   width: 100%;
+  padding: 2rem 0;
   align-items: center;
   display: inline-flex;
   justify-content: space-around;
@@ -84,6 +85,20 @@ header #home .btn-main {
 #nosso-espaco .detalhes .imgs-espaco, #nosso-espaco .detalhes .espaco-textos {
   max-width: 500px;
 }
+#nosso-espaco .detalhes .espaco-textos .titulo {
+  color: #4E75FF;
+  font-size: 1.8rem;
+  font-family: "Krona One", sans-serif;
+  font-weight: 500;
+}
+#nosso-espaco .detalhes .espaco-textos .infos {
+  color: #0C0421;
+  font-size: 1.2rem;
+  font-family: "Montserrat", sans-serif;
+}
 #nosso-espaco .detalhes .espaco-textos .separador {
   width: 100%;
+}
+#nosso-espaco .detalhes:nth-child(2) {
+  flex-direction: row-reverse;
 }/*# sourceMappingURL=styles.css.map */
