@@ -74,29 +74,16 @@ header #home .btn-main {
   width: 80%;
   margin: 0 auto;
 }
-
-.detalhes {
-  display: flex;
+#nosso-espaco .detalhes {
+  gap: 2rem;
+  width: 100%;
   align-items: center;
+  display: inline-flex;
+  justify-content: space-around;
 }
-
-.reverse-row {
-  flex-direction: row-reverse;
+#nosso-espaco .detalhes .imgs-espaco, #nosso-espaco .detalhes .espaco-textos {
+  max-width: 500px;
 }
-
-.espaco-textos {
-  width: 50%;
-  padding: 5em;
-}
-
-.titulo {
-  color: #4E75FF;
-  font-size: 2rem;
-  font-family: "Krona One", sans-serif;
-}
-
-.infos {
-  color: #0C0421;
-  font-size: 1.1rem;
-  font-family: "Montserrat", sans-serif;
+#nosso-espaco .detalhes .espaco-textos .separador {
+  width: 100%;
 }/*# sourceMappingURL=styles.css.map */
