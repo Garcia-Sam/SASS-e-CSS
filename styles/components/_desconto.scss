@@ -16,6 +16,13 @@
         @include mixins.ff-fs-color(variaveis.$fontTextos, 1.6rem, variaveis.$corPrimaria);
 
     }
-    
 
+    .input-btn {
+        height: 65px;
+        margin: 0 auto;
+        border-radius: 65px;
+        $largura-input: 790px;
+        width: $largura-input;
+        border: 1px solid variaveis.$corSecundaria;
+    }
 }
