@@ -13,7 +13,7 @@
     }
     
     p{
-        @include mixins.ff-fs-color(variaveis.$fontTextos, 1.6rem, variaveis.$corPrimaria);
+        @include mixins.ff-fs-color(variaveis.$fontTextos, 1.2rem, variaveis.$corPrimaria);
 
     }
 
@@ -21,8 +21,25 @@
         height: 65px;
         margin: 0 auto;
         border-radius: 65px;
+        display: inline-flex;
         $largura-input: 790px;
         width: $largura-input;
         border: 1px solid variaveis.$corSecundaria;
+        
+        input {
+            @include mixins.ff-fs-color(variaveis.$fontTextos, 1.2rem, variaveis.$corPrimaria);
+            border: none;
+            outline: none;
+            margin-left: 2rem;
+            width: calc($largura-input * 0.65);
+        }
+
+        button {
+            @include mixins.ff-fs-color(variaveis.$fontTextos, 1.2rem, white);
+            border: none;
+            border-radius: 0 65px 65px 0;
+            width: calc($largura-input * 0.35);
+            background: variaveis.$corSecundaria;
+        }
     }
-}
+}    

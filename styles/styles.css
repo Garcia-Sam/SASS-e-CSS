@@ -111,15 +111,34 @@ header #home .btn-main {
 }
 #desconto p {
   color: #0C0421;
-  font-size: 1.6rem;
+  font-size: 1.2rem;
   font-family: "Montserrat", sans-serif;
 }
 #desconto .input-btn {
   height: 65px;
   margin: 0 auto;
   border-radius: 65px;
+  display: inline-flex;
   width: 790px;
   border: 1px solid #4E75FF;
+}
+#desconto .input-btn input {
+  color: #0C0421;
+  font-size: 1.2rem;
+  font-family: "Montserrat", sans-serif;
+  border: none;
+  outline: none;
+  margin-left: 2rem;
+  width: 513.5px;
+}
+#desconto .input-btn button {
+  color: white;
+  font-size: 1.2rem;
+  font-family: "Montserrat", sans-serif;
+  border: none;
+  border-radius: 0 65px 65px 0;
+  width: 276.5px;
+  background: #4E75FF;
 }
 
 #nosso-espaco {
