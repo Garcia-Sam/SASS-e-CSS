@@ -98,6 +98,23 @@ header #home .btn-main {
   font-family: "Montserrat", sans-serif;
 }
 
+#desconto {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: space-between;
+}
+#desconto h4 {
+  color: #0C0421;
+  font-size: 1.6rem;
+  font-family: "Krona One", sans-serif;
+}
+#desconto p {
+  color: #0C0421;
+  font-size: 1.6rem;
+  font-family: "Montserrat", sans-serif;
+}
+
 #nosso-espaco {
   width: 80%;
   margin: 0 auto;

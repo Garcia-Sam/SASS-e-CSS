@@ -1,0 +1,21 @@
+@use '../abstract/mixins';
+@use '../abstract/variaveis';
+
+#desconto {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+
+    h4{
+        @include mixins.ff-fs-color(variaveis.$fontTitulos, 1.6rem, variaveis.$corPrimaria);
+        
+    }
+    
+    p{
+        @include mixins.ff-fs-color(variaveis.$fontTextos, 1.6rem, variaveis.$corPrimaria);
+
+    }
+    
+
+}
