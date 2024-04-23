@@ -141,6 +141,31 @@ header #home .btn-main {
   background: #4E75FF;
 }
 
+#contatos {
+  width: 80%;
+  margin: 0 auto;
+  gap: 2rem;
+  display: flex;
+  justify-content: space-between;
+}
+#contatos .contatos-imgs {
+  gap: 1.5rem;
+  display: flex;
+  max-width: 50%;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+}
+#contatos .contatos-imgs img {
+  width: 100%;
+}
+#contatos .contatos-imgs img:nth-child(n+2) {
+  width: 48%;
+}
+#contatos .contatos-form {
+  max-width: 50%;
+}
+
 #nosso-espaco {
   width: 80%;
   margin: 0 auto;
