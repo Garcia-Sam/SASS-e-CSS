@@ -28,6 +28,9 @@ header {
                 font-weight: 400;
                 text-decoration: none;
                 @include mixins.ff-fs-color(variaveis.$fontTextos, 1rem, variaveis.$corPrimaria);
+                &:hover {
+                    font-weight: bolder;
+                }
             }
         }
     }
@@ -68,7 +71,10 @@ header {
             border-radius: 40px;
             color: variaveis.$branco;
             font-family: variaveis.$fontTextos;
-            background-color: variaveis.$corSecundaria;
+            background-color: variaveis.$corTercearia;
+            &:hover {
+                background: variaveis.$corSecundaria;
+            }
         }
     }       
 }
