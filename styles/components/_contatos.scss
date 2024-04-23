@@ -24,5 +24,60 @@
 
     .contatos-form {
         max-width: 50%;
+        padding: 2rem 3rem;
+        border-radius: 2rem;
+        background: variaveis.$gradientPrimario;
+
+        .titulo {
+            @include mixins.ff-fs-color(variaveis.$fontTitulos, 1.9rem, variaveis.$corSecundaria);
+        }
+
+        .infos {
+            @include mixins.ff-fs-color(variaveis.$fontTextos, 1.2rem, variaveis.$corPrimaria);
+        }
+
+        .inputs {
+            gap: 1.5rem;
+            display: flex;
+            align-self: stretch;
+            flex-direction: column;
+            align-items: flex-start;
+
+            input {
+                border: none;
+                padding: 1rem;
+                border-radius: 25px;
+            }
+            
+            .form-group{
+                gap: .5rem;
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+                
+                label{
+                    @extend .infos;
+                    font-weight: bold;
+                }
+
+                textarea {
+                    @extend input;
+                }
+            }
+            
+            .btn {
+                @extend input;
+                width: 100%;
+                color: white;
+                transition: .3s;
+                font-size: 1rem;
+                margin-top: 2rem;
+                background: variaveis.$corDefalt;
+                &:hover {
+                    background: variaveis.$corSecundaria;
+                }
+            }
+        }
+
     }
 }

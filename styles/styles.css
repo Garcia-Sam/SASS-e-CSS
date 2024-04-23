@@ -164,6 +164,51 @@ header #home .btn-main {
 }
 #contatos .contatos-form {
   max-width: 50%;
+  padding: 2rem 3rem;
+  border-radius: 2rem;
+  background: linear-gradient(180deg, #e8f5c8 0%, #FFFFFF 96.87%);
+}
+#contatos .contatos-form .titulo {
+  color: #4E75FF;
+  font-size: 1.9rem;
+  font-family: "Krona One", sans-serif;
+}
+#contatos .contatos-form .infos, #contatos .contatos-form .inputs .form-group label {
+  color: #0C0421;
+  font-size: 1.2rem;
+  font-family: "Montserrat", sans-serif;
+}
+#contatos .contatos-form .inputs {
+  gap: 1.5rem;
+  display: flex;
+  align-self: stretch;
+  flex-direction: column;
+  align-items: flex-start;
+}
+#contatos .contatos-form .inputs input, #contatos .contatos-form .inputs .btn, #contatos .contatos-form .inputs .form-group textarea {
+  border: none;
+  padding: 1rem;
+  border-radius: 25px;
+}
+#contatos .contatos-form .inputs .form-group {
+  gap: 0.5rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+#contatos .contatos-form .inputs .form-group label {
+  font-weight: bold;
+}
+#contatos .contatos-form .inputs .btn {
+  width: 100%;
+  color: white;
+  transition: 0.3s;
+  font-size: 1rem;
+  margin-top: 2rem;
+  background: #CAD4FA;
+}
+#contatos .contatos-form .inputs .btn:hover {
+  background: #4E75FF;
 }
 
 #nosso-espaco {
