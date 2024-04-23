@@ -211,6 +211,16 @@ header #home .btn-main {
   background: #4E75FF;
 }
 
+footer {
+  padding: 2rem;
+  margin-top: 5rem;
+  text-align: center;
+  background: #E8F5C8;
+  color: #0C0421;
+  font-size: 1rem;
+  font-family: "Montserrat", sans-serif;
+}
+
 #nosso-espaco {
   width: 80%;
   margin: 0 auto;
