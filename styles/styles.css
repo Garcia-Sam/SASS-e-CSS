@@ -144,7 +144,10 @@ header #home .btn-main:hover {
   border: none;
   border-radius: 0 65px 65px 0;
   width: 276.5px;
-  background: #4E75FF;
+  background: #85A0FF;
+}
+#desconto .input-btn button:hover {
+  background-color: #4E75FF;
 }
 
 #contatos {

@@ -39,7 +39,10 @@
             border: none;
             border-radius: 0 65px 65px 0;
             width: calc($largura-input * 0.35);
-            background: variaveis.$corSecundaria;
+            background: variaveis.$corTercearia;
+            &:hover {
+                background-color: variaveis.$corSecundaria;
+            }
         }
     }
 }    
